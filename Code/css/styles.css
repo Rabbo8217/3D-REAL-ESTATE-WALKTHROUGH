@@ -1,0 +1,202 @@
+  .body {
+    margin : 0px;
+    padding : 0px;
+    background-color: #75ac8d54;
+  }
+  .header{
+    background-color:rgb(53, 53, 53) ;
+  }
+  
+  .left {
+    display: inline-block;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+  }
+  .mid {
+  background-color: rgb(53, 53, 53);
+  font-size: 20px;
+  display: block;
+  width: 50%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 29px auto;
+  /* border: 2px solid green; */
+  }
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar li a {
+    color:whitesmoke;
+    padding: 0px 50px 0px 50px;
+    text-decoration: none;
+  }
+  .navbar li a:hover {
+    color:whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-thickness: 3px;
+  }
+  .btn{
+    background-color: #606e60; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .about-us{
+    display: inline-block;
+    background-image: url("img/2bhk.jpg");
+    text-align: center;
+    text-decoration:wavy;
+    padding-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  .about-us h1{
+    font-size: 50px;
+    /* border: 2px solid red; */
+
+  }
+  .about-text {
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .about-img{
+    margin: none!important;
+  }
+  .table {
+    text-align: center;
+  }
+
+  .list-style {
+    /* border: 2px solid red; */
+    list-style-type: disc;
+    display: inline-block;
+    margin-right: 100px;
+    text-align: left;
+
+  }
+
+  .section-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: left;
+    color: teal;
+    text-decoration-color: rgb(204, 110, 110);
+    padding-bottom: 2%;
+    padding-left: 10%;
+  }
+
+  .service-desc h3{
+    font-size: 30px;
+  }
+  #img1 {
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    width: 30%;
+    float: left;
+  }
+
+  #img2 {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 0px;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #img3 {
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+  }
+
+  #serv1 {
+    /* border: 2px solid forestgreen; */
+    width: 50%;
+    float: right;
+    padding: 120px 120px 160px 0px;
+  }
+
+  #serv2 {
+    /* border: 2px solid forestgreen; */
+    width: 40%;
+    float: left;
+    padding: 110px 1px 140px 120px;
+  }
+
+  #serv3 {
+    /* border: 2px solid forestgreen; */
+    width: 40%;
+    float: right;
+    padding: 120px 120px 120px 120px;
+  }
+
+
+  .button {
+    text-align: center;
+    /* border: 4px solid red; */
+    width: 20%;
+    margin-left: 810px;
+    margin-right: 680px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: white;
+    background: cornflowerblue;
+    border: none;
+    border-radius: 28px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    color: white;
+    background: rgb(102, 204, 156);
+    border: none;
+    border-radius: 28px;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  .contact{
+    width:50%;
+    display: inline;
+
+  }
+  .contact-text{
+    border: 2px solid blue;
+    text-align: left;
+    margin-left: 20px;
+    width :25%;
+  }
+  .form{
+    border: 2px solid red;
+    text-align: left;
+    margin-left: 20px;
+    width :25%;
+  }
+  .contact-info{
+    
+  }
